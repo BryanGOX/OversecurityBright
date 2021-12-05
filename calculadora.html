@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript" src="calcprecios.js"></script>
+	<title>Calculadora</title>
+	<link rel="stylesheet" type="text/css" href="styloscalc.css">
+</head>
+<body background="img/fondoazulblanco.jpg">
+	<nav>
+		<h6><a href="index.html">Regresar</a></h6>
+	</nav>
+	<section>
+		<header>
+			<h1 class="titulo">Calculadora de precios</h1>
+		</header>
+
+		<table>
+			<tr>
+				<td>
+					<p>Producto</p>
+				</td>
+				<td>
+
+					<p>Precios individuales</p>
+				</td>
+				<td>
+					<p>Ingresar cantidad</p>
+					
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<img src="img/camara2.png">
+				</td>
+				<td>
+					<p>$400 Pesos</p>
+				</td>
+				<td>
+					<input id="preciocam" type="text" name="preciocam">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<img src="img/esp32-2.jpg">
+				</td>
+				<td>
+					<p>$350 pesos</p>
+				</td>
+				<td>
+					<input id="precioesp" type="text" name="precioesp">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<img src="img/cerradura.jpg">
+				</td>
+				<td>
+					<p>$250 pesos</p>
+				</td>
+				<td>
+					<input id="preciocerradura" type="text" name="preciocerradura">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<img src="img/sensormovimiento.jpg">
+				</td>
+				<td>
+					<p>$250 pesos</p>
+				</td>
+				<td>
+					<input id="preciomov" type="text" name="preciomov">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<img src="img/sensorsonido.jpg">
+				</td>
+				<td>
+					<p>$200 pesos</p>
+				</td>
+				<td>
+					<input id="preciosonido" type="text" name="preciosonido">
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td class="calctotal">
+					<button id="resultado">Calcular total</button>
+					<input id="total" type="text" name="total">
+				</td>	
+			</tr>
+		</table>
+
+	</section>
+
+</body>
+</html>

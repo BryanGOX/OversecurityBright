@@ -1,0 +1,38 @@
+table {
+   width: 900px;
+   padding: 50px;
+   margin-top: 10px;
+   text-align: center;
+   vertical-align: top;
+   background: #06BAF8;
+   margin-left: 200px;
+   border: 3px solid #000 ;
+
+}
+tr td {
+   width: 25%;
+   border: 2px solid #000;
+   border-spacing: 0;
+   border-collapse: collapse;
+}
+
+img {
+	width: 100px;
+	height: 100px;
+}
+
+.titulo{
+	text-align: center;
+	font-size: 22px;
+	line-height: 60px;
+}
+
+section table tr td input{
+	border: 3px solid #1f53c5;
+}
+
+.calctotal{
+	margin: auto;
+	width: 200px;
+	height: 50px;
+}
